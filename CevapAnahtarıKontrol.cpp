@@ -1,24 +1,24 @@
 /* 
-Dört şıklı çoktan seçmeli bir sınavı değerlendiren bir programı 
-algoritma, akış diyagramı ve programı C++ dilinde yazınız.  
+DÃ¶rt ÅŸÄ±klÄ± Ã§oktan seÃ§meli bir sÄ±navÄ± deÄŸerlendiren bir programÄ± 
+algoritma, akÄ±ÅŸ diyagramÄ± ve programÄ± C++ dilinde yazÄ±nÄ±z.  
 
- a) Öncelikle sınavda kaç soru sorulacağını girdi olarak alınız 
- ve bu boyutta bir karakter dizisini dinamik olarak oluşturarak 
- doğru cevapları bu diziye giriniz. 
+ a) Ã–ncelikle sÄ±navda kaÃ§ soru sorulacaÄŸÄ±nÄ± girdi olarak alÄ±nÄ±z 
+ ve bu boyutta bir karakter dizisini dinamik olarak oluÅŸturarak 
+ doÄŸru cevaplarÄ± bu diziye giriniz. 
  Daha sonra, 
- 10 öğrencinin numarasını ve cevaplarını 
- dinamik diziye okuyup 100 üzerinden aldıkları notları ekranda gösteriniz. 
+ 10 Ã¶ÄŸrencinin numarasÄ±nÄ± ve cevaplarÄ±nÄ± 
+ dinamik diziye okuyup 100 Ã¼zerinden aldÄ±klarÄ± notlarÄ± ekranda gÃ¶steriniz. 
 
- b) Tüm öğrencilerin numarası, 
- cevaplarını 
- ve puanlarını “yanit.txt”  uzantılı dosyaya aktarın. 
+ b) TÃ¼m Ã¶ÄŸrencilerin numarasÄ±, 
+ cevaplarÄ±nÄ± 
+ ve puanlarÄ±nÄ± â€œyanit.txtâ€  uzantÄ±lÄ± dosyaya aktarÄ±n. 
 
- Örnek çıktı: 
- Sınavdaki soru sayısı=20 
- Doğru cevap anahtarı=ABBACCADABCDABDDAACD 
+ Ã–rnek Ã§Ä±ktÄ±: 
+ SÄ±navdaki soru sayÄ±sÄ±=20 
+ DoÄŸru cevap anahtarÄ±=ABBACCADABCDABDDAACD 
  Ogrenci Nosu=111 
- 111’in cevapları=CBBACCADABCDABDDAACD 
- 111’in notu=95.00 
+ 111â€™in cevaplarÄ±=CBBACCADABCDABDDAACD 
+ 111â€™in notu=95.00 
 */
 
 #include <stdio.h>
@@ -36,7 +36,7 @@ int main()
 	
 	char DogruCevap[SoruSayi+1], x, y;
 	char OgrenciCevap[OGRENCI+1][SoruSayi+1];
-	float puan[OGRENCI+1], SoruPuan; //soru sayısı sonradan girildiği için puan virgüllü çıkabilir o yüzden float tanımladım.
+	float puan[OGRENCI+1], SoruPuan; //soru sayÄ±sÄ± sonradan girildiÄŸi iÃ§in puan virgÃ¼llÃ¼ Ã§Ä±kabilir o yÃ¼zden float tanÄ±mladÄ±m.
 	
 	for(int i = 0; i < SoruSayi; i++)
 	{
@@ -45,7 +45,7 @@ int main()
 	}
 	printf("\n");
 	
-	SoruPuan =(float) 100 / SoruSayi; //1 sorunun kaç puan olduğunu hesapladım.
+	SoruPuan =(float) 100 / SoruSayi; //1 sorunun kaÃ§ puan olduÄŸunu hesapladÄ±m.
 	
 	for(int j = 0; j < OGRENCI; j++)
 	{
