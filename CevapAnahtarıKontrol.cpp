@@ -1,6 +1,6 @@
 /* 
 Dört şıklı çoktan seçmeli bir sınavı değerlendiren bir programı 
-algoritma, akış diyagramı ve programı C++ dilinde yazınız.  
+algoritma, akış diyagramı ve programı C dilinde yazınız.  
 
  a) Öncelikle sınavda kaç soru sorulacağını girdi olarak alınız 
  ve bu boyutta bir karakter dizisini dinamik olarak oluşturarak 
