@@ -17,8 +17,8 @@ algoritma, akış diyagramı ve programı C dilinde yazınız.
  Sınavdaki soru sayısı=20
  Doğru cevap anahtarı=ABBACCADABCDABDDAACD
  Ogrenci Nosu=111
- 111’in cevapları=CBBACCADABCDABDDAACD
- 111’in notu=95.00
+ 1111’in cevapları=CBBACCADABCDABDDAACD
+ 1111’in notu=95.00
 */
 
 #include <stdio.h>
