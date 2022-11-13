@@ -1,6 +1,6 @@
 # Cevap Anahtarı Kontrol Uygulaması
 
-Hangi öğrencinin kaç doğru kaç yanlış ve kaç puan aldığını yazdırır.
+Hangi öğrencinin kaç doğru kaç yanlış yaptığını ve kaç puan aldığını yazdırır.
 
 1) Kaç öğrenci olduğunu giriniz.
 2) Doğru cevap anahtarını giriniz.
